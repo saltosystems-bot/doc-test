@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-document"
+  description: "Documentation test"
+  annotations:
+    github.com/project-slug: "saltosystems-bot/doc-test"
+    backstage.io/techdocs-ref: github:https://github.com/saltosystems-bot/doc-test
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "guest"
